@@ -1,0 +1,23 @@
+{
+  "name": "lab0_review_syntax_babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuiechen/VUE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuiechen/VUE/issues"
+  },
+  "homepage": "https://github.com/yuiechen/VUE#readme",
+  "description": "",
+  "dependencies": {
+    "babel-loader": "^8.2.5"
+  }
+}
