@@ -18,6 +18,10 @@
   "homepage": "https://github.com/yuiechen/VUE#readme",
   "description": "",
   "dependencies": {
-    "babel-loader": "^8.2.5"
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.72.0"
   }
 }
