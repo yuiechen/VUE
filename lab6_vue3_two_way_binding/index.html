@@ -16,6 +16,8 @@
     <h1>Event binding1</h1>
     <section id="myapp">
         <input type="text" v-model="issue" />
+        <input type="text" v-bind:value="issue2" />
+        <input type="text" :value="issue3" />
         <p>current issue:{{issue}}</p>
         <p>counter = {{counter}}</p>
         <p>output issue={{outputIssue}}</p>
