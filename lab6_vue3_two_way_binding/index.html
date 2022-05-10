@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="app.js" async defer></script>
+</head>
+
+<body>
+    <h1>Event binding1</h1>
+    <section id="myapp">
+        <input type="text" @input="setIssue" v-bind:value="issue"/>
+        <p>current issue:{{issue}}</p>
+        <button @click="resetIssue">Clear Issue</button>
+    </section>
+</body>
+
+</html>
