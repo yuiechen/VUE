@@ -15,9 +15,12 @@
 <body>
     <h1>Event binding1</h1>
     <section id="myapp">
-        <input type="text" v-model="issue"/>
+        <input type="text" v-model="issue" />
         <p>current issue:{{issue}}</p>
+        <p>counter = {{counter}}</p>
+        <p>output issue={{outputIssue()}}</p>
         <button @click="resetIssue">Clear Issue</button>
+        <button @click="increase">+1</button>
     </section>
 </body>
 
