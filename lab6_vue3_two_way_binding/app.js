@@ -6,6 +6,15 @@ const app = Vue.createApp({
         }
     },
     methods: {
+
+        resetIssue() {
+            this.issue = "";
+        },
+        increase() {
+            this.counter += 1;
+        }
+    },
+    computed: {
         outputIssue() {
             console.log(`output issue is called:${this.issue}`)
             if (this.issue === "") {
@@ -13,12 +22,6 @@ const app = Vue.createApp({
             }
             return `[!!!]${this.issue}`
         },
-        resetIssue() {
-            this.issue = "";
-        },
-        increase() {
-            this.counter += 1;
-        }
     }
 })
 app.mount("#myapp")
