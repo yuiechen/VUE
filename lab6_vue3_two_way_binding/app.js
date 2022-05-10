@@ -20,7 +20,8 @@ const app = Vue.createApp({
             if (this.issue === "") {
                 return ""
             }
-            return `[!!!]${this.issue}`
+            let prefix = "!".repeat(this.counter)
+            return `[${prefix}]${this.issue}`
         },
     }
 })
