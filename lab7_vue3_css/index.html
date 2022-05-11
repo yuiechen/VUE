@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="app.js" async defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>css lab</h1>
+    <section id="myapp">
+        <div  :class="div1Selected? 'demo is1Selected':'demo'" @click="divSelected(1)">Mountain</div>
+        <div  :class="div2Selected? 'demo is2Selected':'demo'" @click="divSelected(2)">Ocean</div>
+        <div  :class="div3Selected? 'demo is3Selected':'demo'" @click="divSelected(3)">Sky</div>
+    </section>
+
+</body>
+
+</html>
